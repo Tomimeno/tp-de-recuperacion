@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+* {
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  background-color: gray;
+  height: 1500px; }
+
+div {
+  display: block;
+  unicode-bidi: isolate; }
+
+.infotext {
+  align-items: center; }
+
+#myCarousel {
+  height: 720px; }
+
+.carousel-item {
+  height: 720px; }
