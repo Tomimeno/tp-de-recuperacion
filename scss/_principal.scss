@@ -40,7 +40,6 @@ section{
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: adjust-hue($color: #000000, $degrees: 0);
 }
 .cont-img-prin{
     height: 450px;
@@ -53,6 +52,13 @@ section{
     width: 100%;
     position: relative;
     text-align: center;  
+    background-image: url('../assets/imagenes/faro.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 450px   ;
+    position: relative;
+
 }
 img{
     max-width: 100%;
@@ -93,6 +99,7 @@ h2{
 .imgintro{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    border-radius: 15px;
     width: 100%;
     height: auto;
 }
@@ -124,4 +131,16 @@ h2{
     margin-top: 20px; 
     align-items: center;
     
+}
+
+.fondo{
+    background-image: url('../assets/imagenes/fondo.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%; 
+    background-attachment: fixed;
+
 }
