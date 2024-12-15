@@ -163,8 +163,8 @@ h2 {
   background-color: #363636; }
 
 .header-ini {
-  background-color: dark;
-  height: 50px;
+  background-color: #404040;
+  height: 65px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -175,7 +175,7 @@ h2 {
     align-items: center;
     width: 60px;
     height: 60px;
-    background-color: white;
+    background-color: #626262;
     border-radius: 50%;
     overflow: hidden; }
     .header-ini .cont-home-ini .casaini {
@@ -210,7 +210,7 @@ h2 {
   background-color: #f7f7f7;
   border-radius: 15px;
   padding: 20px; }
- 
+
 .plataformas {
   margin-top: 10% !important;
   margin-left: 170px !important;

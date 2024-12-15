@@ -1,11 +1,11 @@
 
-$hefo-color: #4b4b4b;
+$hefo-color: #404040;
 $primary-color: #05aef7;
 $hover-color: #007bb5;
 $background-color: #f7f7f7;
 .header-ini{
-    background-color: $he-fo-color;
-    height: 50px;
+    background-color: $hefo-color;
+    height: 65px;
     display: flex;
     justify-content: flex-end;
     align-items: center; 
@@ -17,7 +17,7 @@ $background-color: #f7f7f7;
         align-items: center;
         width: 60px; 
         height: 60px; 
-        background-color: white;
+        background-color: rgb(98, 98, 98);
         border-radius: 50%;
         overflow: hidden; 
         .casaini{
