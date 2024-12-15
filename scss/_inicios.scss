@@ -1,0 +1,134 @@
+
+$hefo-color: #4b4b4b;
+$primary-color: #05aef7;
+$hover-color: #007bb5;
+$background-color: #f7f7f7;
+.header-ini{
+    background-color: $he-fo-color;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    padding: 0 10px;
+
+    .cont-home-ini{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px; 
+        height: 60px; 
+        background-color: white;
+        border-radius: 50%;
+        overflow: hidden; 
+        .casaini{
+            width: 100%; 
+            height: auto; 
+            padding: 10px; 
+        }
+    }
+}
+
+
+
+@mixin centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+
+@mixin btn {
+    background-color: $primary-color;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+
+    &:hover {
+        background-color: $hover-color;
+ 
+
+
+
+
+
+    }
+}
+
+
+
+#main {
+    @include centrado; 
+    flex-direction: column; 
+    height: 100vh;
+
+
+
+
+}
+
+#titulo {
+    text-align: center; 
+    margin-bottom: 20px; 
+
+
+
+
+}
+
+.btn-primary {
+    @include btn; 
+
+
+
+
+}
+.contform{
+    width: 60%;
+    margin: 0 auto;
+    background-color: $background-color;
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+.plataformas{
+    margin-top: 10% !important;
+    margin-left: 170px !important;
+    color: white;
+    font-size: 30px;
+    
+
+
+    p{
+        margin-top: 20px !important;
+    }
+
+    .fotolinea{
+        margin-top: -30px;
+        width: 550px !important;
+
+    }
+
+    .imagen{
+        width: 85% !important;
+        height: 85% !important;
+        padding-top: 5% !important;    
+    
+        
+
+    }
+
+
+
+
+    
+}
+

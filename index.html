@@ -14,39 +14,38 @@
     <div class="px-3 py-2 text-bg-dark border-bottom">
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-            Emprendify
-          </a>
-
+          <div class="contlogo d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <img src="assets/imagenes/logo-w.png" alt="Logo" class="logo"> 
+        </div>
+  
           <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
             <li>
               <a href="index.html" class="nav-link text-secondary">
-                <img src="assets/imagenes/casa.png" alt=""  class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use>
-                Home>
+                <img src="assets/imagenes/casa.png" alt="" class="bi d-block mx-auto mb-1" width="24" height="24">
+                Home
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link text-white">
-                <img src="" alt="" <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"></use></svg>
-                testimonios>
+              <a href="paginas/testimonios.html" class="nav-link text-white">
+                <img src="assets/imagenes/testimonios.png" alt="" class="bi d-block mx-auto mb-1" width="24" height="24">
+                Testimonios
               </a>
             </li>
-            <li>
-              <a href="#" class="nav-link text-white">
-                <img src="assets/imagenes/cursos.png" alt=""  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg>
-                courses>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownCourses" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="assets/imagenes/cursos.png" alt="Cursos" class="bi d-block mx-auto mb-1" width="24" height="24">
+                Cursos
               </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownCourses">
+                <li><a class="dropdown-item" href="paginas/dropshipping.html">Dropshipping</a></li>
+                <li><a class="dropdown-item" href="paginas/trading.html">Trading</a></li>
+                <li><a class="dropdown-item" href="paginas/amazonfba.html">Amazon FBA</a></li>
+              </ul>
             </li>
             <li>
-              <a href="#" class="nav-link text-white">
-                <img src="assets/imagenes/contacto.png" alt=""<svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
-                contactos>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white">
-                <img src="assets/imagenes/usuario (2).png" alt="" <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"></use></svg>
-                Profile>
+              <a href="paginas/inicioseccion.html" class="nav-link text-white">
+                <img src="assets/imagenes/usuario (2).png" alt="" class="bi d-block mx-auto mb-1" width="24" height="24">
+                Perfil
               </a>
             </li>
           </ul>
@@ -54,63 +53,90 @@
       </div>
     </div>
   </header>
+
     <main>
-        <div id="imagenprim">
-            <h1 id="textobanner">encaminate al exito</h1>
-            <button>empieza ahora</button>
+      <div id="imagenprin">
+        <div class="contprin">
+          <h1 id="textobanner">encaminate al exito</h1>
+          <p id="parrafo">Da tus primeros pasos para volverte un hombre exitoso</p>
+          <a href="paginas/inicioseccion.html"><button id="boton">empieza ahora</button></a>
         </div>
-    </main>
-    <main >
-      <section class="cont my-5">
-        <div class="row align-items-center interior_text p-0">
-          <div class="col-md-6">
-            <h2>Dropshiping</h2>
-            <p class="intro-text">Es un modelo de negocio en el que puedes vender productos en línea sin necesidad de tener inventario propio. Cuando un cliente realiza una compra, el proveedor se encarga de almacenar, empaquetar y enviar el producto directamente al cliente.</p>
-          </div>
-          <div class="col-md-6 contdiv p-0">
-            <img src="assets/imagenes/dropshipping.png" class="img-fluid imgintro" alt="">
-          </div>
-        </div>
-      </section>
-      <div class="contbtn">
-        <button class="btncurso">
-          <p>empezar curso</p>
-        </button>
-      </div>
-  
-      <section class="cont my-5">
-        <div class="row align-items-center interior_text p-0">
-          <div class="col-md-6 contdiv p-0">
-            <img src="assets/imagenes/trading.png" class="img-fluid imgintro" alt="">
-          </div>
-          <div class="col-md-6 contdiv p-0">
-            <h2>Trading</h2>
-            <p class="intro-text">Consiste en la compra y venta de activos financieros, como acciones, divisas, materias primas o criptomonedas, con el objetivo de generar ganancias. Esta actividad se realiza en mercados financieros y puede ser a corto, mediano o largo plazo, dependiendo de la estrategia del inversor.</p>
-          </div>
-        </div>
-      </section>
-      <div class="contbtn">
-        <button class="btncurso">
-          <p>empezar curso</p>
-        </button>
-      </div>
-  
-      <section class="cont my-5">
-        <div class="row align-items-center interior_text p-0">
-          <div class="col-md-6">
-            <h2>Amazon FBA</h2>
-            <p class="intro-text"> permite a los vendedores almacenar sus productos en los centros logísticos de la plataforma. Amazon se encarga del almacenamiento, empaque, envío y servicio al cliente. Este modelo facilita la gestión del negocio, permitiendo a los vendedores enfocarse en el crecimiento mientras Amazon maneja la logística.</p>
-          </div>
-          <div class="col-md-6 contdiv p-0">
-            <img src="assets/imagenes/amazon.png" class="img-fluid imgintro" alt="">
-          </div>
-        </div>
-      </section>
-      <div class="contbtn">
-        <button class="btncurso">
-          <p>empezar curso</p>
-        </button>
       </div>
     </main>
+
+    <div class="espacio-main" style="font-size: 60px; color: white; text-align: center;"><p>Cursos</p></div>
+
+    <section class="cont my-5">
+      <div class="row align-items-center interior_text p-0">
+        <div class="col-md-6">
+          <h2>Dropshiping</h2>
+          <p class="intro-text">Es un modelo de negocio en el que puedes vender productos en línea sin necesidad de tener inventario propio. Cuando un cliente realiza una compra, el proveedor se encarga de almacenar, empaquetar y enviar el producto directamente al cliente.</p>
+        </div>
+        <div class="col-md-6 contdiv p-0">
+          <img src="assets/imagenes/dropshipping.png" class="img-fluid imgintro" alt="">
+        </div>
+      </div>
+    </section>
+    <div class="contbtn">
+      <a href="paginas/dropshipping.html">
+        <button class="btncurso">Empezar curso</button>
+      </a>
+    </div>
+
+    <section class="cont my-5">
+      <div class="row align-items-center interior_text p-0">
+        <div class="col-md-6 contdiv p-0">
+          <img src="assets/imagenes/trading.png" class="img-fluid imgintro" alt="">
+        </div>
+        <div class="col-md-6 contdiv p-0">
+          <h2>Trading</h2>
+          <p class="intro-text">Consiste en la compra y venta de activos financieros, como acciones, divisas, materias primas o criptomonedas, con el objetivo de generar ganancias. Esta actividad se realiza en mercados financieros y puede ser a corto, mediano o largo plazo, dependiendo de la estrategia del inversor.</p>
+        </div>
+      </div>
+    </section>
+    <div class="contbtn">
+      <a href="paginas/dropshipping.html">
+        <button class="btncurso">Empezar curso</button>
+      </a>
+    </div>
+
+    <section class="cont my-5">
+      <div class="row align-items-center interior_text p-0">
+        <div class="col-md-6">
+          <h2>Amazon FBA</h2>
+          <p class="intro-text"> permite a los vendedores almacenar sus productos en los centros logísticos de la plataforma. Amazon se encarga del almacenamiento, empaque, envío y servicio al cliente. Este modelo facilita la gestión del negocio, permitiendo a los vendedores enfocarse en el crecimiento mientras Amazon maneja la logística.</p>
+        </div>
+        <div class="col-md-6 contdiv p-0">
+          <img src="assets/imagenes/amazon.png" class="img-fluid imgintro" alt="">
+        </div>
+      </div>
+    </section>
+    <div class="contbtn">
+      <a href="paginas/dropshipping.html">
+        <button class="btncurso">Empezar curso</button>
+      </a>
+    </div>
+
+    <footer class="py-3" style="background-color: #343a40; margin-bottom: 0;">
+      <div class="contlogo">
+        <img src="assets/imagenes/logo-w.png" alt="Logo" class="logo">
+    </div>
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
+        <li class="nav-item"><a href="paginas/testimonios.html" class="nav-link px-2 text-white">Testimonios</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownCourses" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cursos
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownCourses">
+            <li><a class="dropdown-item" href="paginas/dropshipping.html">Dropshipping</a></li>
+            <li><a class="dropdown-item" href="paginas/trading.html">Trading</a></li>
+            <li><a class="dropdown-item" href="paginas/amazonfba.html">Amazon FBA</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="paginas/inicioseccion.html" class="nav-link px-2 text-white">Perfil</a></li>
+      </ul>
+      <p class="text-center text-white">© 2024 Compañía, Inc.</p>
+    </footer>
 </body>
 </html>
