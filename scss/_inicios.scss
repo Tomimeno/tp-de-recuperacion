@@ -1,8 +1,8 @@
-
 $hefo-color: #404040;
 $primary-color: #05aef7;
 $hover-color: #007bb5;
 $background-color: #f7f7f7;
+
 .header-ini{
     background-color: $hefo-color;
     height: 65px;
@@ -20,6 +20,7 @@ $background-color: #f7f7f7;
         background-color: rgb(98, 98, 98);
         border-radius: 50%;
         overflow: hidden; 
+
         .casaini{
             width: 100%; 
             height: auto; 
@@ -28,20 +29,13 @@ $background-color: #f7f7f7;
     }
 }
 
-
-
-@mixin centrado {
+@mixin centrado{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
-
 }
 
-
-@mixin btn {
+@mixin btn{
     background-color: $primary-color;
     border: none;
     color: white;
@@ -49,86 +43,68 @@ $background-color: #f7f7f7;
     border-radius: 5px;
     cursor: pointer;
 
-
-
-
-    &:hover {
+    &:hover{
         background-color: $hover-color;
- 
-
-
-
-
-
     }
 }
 
-
-
-#main {
-    @include centrado; 
-    flex-direction: column; 
-    height: 100vh;
-
-
-
-
-}
-
-#titulo {
+#titulo{
     text-align: center; 
     margin-bottom: 20px; 
-
-
-
-
 }
 
-.btn-primary {
+.btn-primary{
     @include btn; 
-
-
-
-
 }
+
 .contform{
     width: 60%;
     margin: 0 auto;
     background-color: $background-color;
     border-radius: 15px;
     padding: 20px;
-    
-}
-.plataformas{
-    margin-top: 10% !important;
-    margin-left: 170px !important;
-    color: white;
-    font-size: 30px;
-    
-
-
-    p{
-        margin-top: 20px !important;
-    }
-
-    .fotolinea{
-        margin-top: -30px;
-        width: 550px !important;
-
-    }
-
-    .imagen{
-        width: 85% !important;
-        height: 85% !important;
-        padding-top: 5% !important;    
-    
-        
-
-    }
-
-
-
-
-    
 }
 
+@media (max-width: 768px){
+    .cont-home-ini{
+        width: 50px;
+        height: 50px;
+    }
+
+    #titulo{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .btn-primary{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .contform{
+        width: 80%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 468px){
+    .cont-home-ini{
+        width: 40px;
+        height: 40px;
+    }
+
+    #titulo{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn-primary{
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .contform{
+        width: 90%;
+        padding: 10px;
+    }
+}
