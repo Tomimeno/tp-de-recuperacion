@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-$primary-color: #05aef7;
+$btn-color: #05aef7;
 $secondary-color: #2ecc71;
 $img-max-width: 100%;
 $img-height: auto;
@@ -106,7 +106,7 @@ body {
             position: absolute;
             top: 60%;
             left: 50px;
-            background-color: $primary-color;
+            background-color: $btn-color;
             width: 220px;
             padding: 20px;
             color: #fff;
@@ -176,7 +176,7 @@ body {
     }
     
     .btncurso{
-        background-color: #05aef7;
+        background-color: $btn-color;
         width: 220px;
         padding: 20px;
         color: white;
@@ -187,7 +187,7 @@ body {
         border-radius: 10px;
         display: flex;
         justify-content: center;
-     align-items: center;
+        align-items: center;
         transition: background-color 0.3s;
         text-decoration: none !important;
     

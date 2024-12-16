@@ -1,7 +1,7 @@
 $hefo-color: #404040;
-$primary-color: #05aef7;
+$btn-color: #05aef7;
 $hover-color: #007bb5;
-$background-color: #f7f7f7;
+$fondo-color: #f7f7f7;
 
 .header-ini{
     background-color: $hefo-color;
@@ -36,7 +36,7 @@ $background-color: #f7f7f7;
 }
 
 @mixin btn{
-    background-color: $primary-color;
+    background-color: $btn-color;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -60,7 +60,7 @@ $background-color: #f7f7f7;
 .contform{
     width: 60%;
     margin: 0 auto;
-    background-color: $background-color;
+    background-color: $fondo-color;
     border-radius: 15px;
     padding: 20px;
 }
